@@ -1,0 +1,18 @@
+section {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto 10px auto;
+  padding: 30px;
+  border: grey solid 1px;
+}
+
+.two-cols {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.two-cols > div {
+  flex-basis: 50%;
+}
